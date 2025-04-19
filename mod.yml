@@ -1,0 +1,235 @@
+atitle: Garuda Drive
+originalAuthor: wavingfuture
+description: Channel the fury of wind with this primal transformation!
+dependencies: 
+assets:
+# Voice
+- name: obj/P_EX100_BTLF.a.us
+  multi:
+  - name: obj/P_EX100_XM_BTLF.a.us
+  - name: obj/P_EX100_NM_BTLF.a.us
+  - name: obj/P_EX100_TR_BTLF.a.us
+  - name: obj/P_EX100_WI_BTLF.a.us
+  method: copy
+  source:
+  - name: VA/Valor.a.us
+- name: obj/P_EX100_MAGF.a.us
+  multi:
+  - name: obj/P_EX100_XM_MAGF.a.us
+  - name: obj/P_EX100_NM_MAGF.a.us
+  - name: obj/P_EX100_TR_MAGF.a.us
+  - name: obj/P_EX100_WI_MAGF.a.us
+  method: copy
+  source:
+  - name: VA/Wisdom.a.us
+- name: obj/P_EX100_TRIF.a.us
+  multi:
+  - name: obj/P_EX100_XM_TRIF.a.us
+  - name: obj/P_EX100_NM_TRIF.a.us
+  - name: obj/P_EX100_TR_TRIF.a.us
+  - name: obj/P_EX100_WI_TRIF.a.us
+  method: copy
+  source:
+  - name: VA/Master.a.us
+- name: obj/P_EX100_KH1F.a.us
+  multi:
+  - name: obj/P_EX100_XM_KH1F.a.us
+  - name: obj/P_EX100_NM_KH1F.a.us
+  - name: obj/P_EX100_TR_KH1F.a.us
+  - name: obj/P_EX100_WI_KH1F.a.us
+  method: copy
+  source:
+  - name: VA/Limit.a.us
+- name: obj/P_EX100_ULTF.a.us
+  multi:
+  - name: obj/P_EX100_XM_ULTF.a.us
+  - name: obj/P_EX100_NM_ULTF.a.us
+  - name: obj/P_EX100_TR_ULTF.a.us
+  - name: obj/P_EX100_WI_ULTF.a.us
+  method: copy
+  source:
+  - name: VA/Final.a.us
+# Valor
+- name: obj/P_EX100_BTLF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_BTLF.mdlx
+  - name: obj/P_EX100_XM_BTLF.mdlx
+  - name: obj/P_EX100_WI_BTLF.mdlx
+  - name: obj/P_EX100_TR_BTLF.mdlx
+  method: copy
+  source:
+  - name: M/Valor.mdlx
+- name: remastered/obj/P_EX100_BTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Valor.png
+- name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
+  method: copy
+  source:
+  - name: HUD/Base/Valor.png
+# Wisdom
+- name: obj/P_EX100_MAGF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_MAGF.mdlx
+  - name: obj/P_EX100_XM_MAGF.mdlx
+  - name: obj/P_EX100_WI_MAGF.mdlx
+  - name: obj/P_EX100_TR_MAGF.mdlx
+  method: copy
+  source:
+  - name: M/Wisdom.mdlx
+- name: remastered/obj/P_EX100_MAGF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Wisdom.png
+- name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_XM_MAGF.a.us/-2.dds
+  method: copy
+  source:
+  - name: HUD/Base/Wisdom.png
+# Master
+- name: obj/P_EX100_TRIF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_TRIF.mdlx
+  - name: obj/P_EX100_XM_TRIF.mdlx
+  - name: obj/P_EX100_WI_TRIF.mdlx
+  - name: obj/P_EX100_TR_TRIF.mdlx
+  method: copy
+  source:
+  - name: M/Master.mdlx
+- name: remastered/obj/P_EX100_TRIF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Master.png
+- name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_XM_TRIF.a.us/-5.dds
+  method: copy
+  source:
+  - name: HUD/Base/Master.png
+# Limit
+- name: obj/P_EX100_KH1F.mdlx
+  multi:
+  - name: obj/P_EX100_NM_KH1F.mdlx
+  - name: obj/P_EX100_XM_KH1F.mdlx
+  - name: obj/P_EX100_WI_KH1F.mdlx
+  - name: obj/P_EX100_TR_KH1F.mdlx
+  method: copy
+  source:
+  - name: M/Limit.mdlx
+- name: remastered/obj/P_EX100_KH1F.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Limit.png
+- name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_XM_KH1F.a.us/-9.dds
+  method: copy
+  source:
+  - name: HUD/Base/Limit.png
+# Final
+- name: obj/P_EX100_ULTF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_ULTF.mdlx
+  - name: obj/P_EX100_XM_ULTF.mdlx
+  - name: obj/P_EX100_WI_ULTF.mdlx
+  - name: obj/P_EX100_TR_ULTF.mdlx
+  method: copy
+  source:
+  - name: M/Final.mdlx
+- name: remastered/obj/P_EX100_ULTF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Final.png
+- name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_XM_ULTF.a.us/-10.dds
+  method: copy
+  source:
+  - name: HUD/Base/Final.png
+# Anti
+- name: obj/P_EX100_HTLF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_HTLF.mdlx
+  - name: obj/P_EX100_XM_HTLF.mdlx
+  - name: obj/P_EX100_WI_HTLF.mdlx
+  - name: obj/P_EX100_TR_HTLF.mdlx
+  method: copy
+  source:
+  - name: M/Anti.mdlx
+- name: remastered/obj/P_EX100_HTLF.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TR_HTLF.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Anti.png
+- name: remastered/obj/P_EX100_HTLF.a.us/-3.dds
+  multi:
+  - name: remastered/obj/P_EX100_NM_HTLF.a.us/-3.dds
+  method: copy
+  source:
+  - name: HUD/Base/Anti.png
+- name: remastered/obj/P_EX100_WI_HTLF.a.us/-3.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_HTLF.a.us/-3.dds
+  method: copy
+  source:
+  - name: HUD/Base/Anti.png
+- name: remastered/obj/P_EX100_XM_HTLF.a.us/-3.dds
+  method: copy
+  source:
+  - name: HUD/Base/Anti.png
+# Vexen Anti Clone
+- name: obj/P_EX100_HTLF_BTL.mdlx
+  method: copy
+  source:
+  - name: M/Anticlone.mdlx
+- name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-0.dds
+  method: copy
+  source:
+  - name: T/Anti.png
